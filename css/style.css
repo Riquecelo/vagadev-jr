@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*************************************/
+.menu{
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    border: solid 1px white;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    align-content: space-around;
+    justify-content: space-around;
+    position: absolute;
+    z-index: 2;
+}
+.menu ul li img{
+    width: 20px;
+    height: 20px;
+    background-color: aliceblue;
+    color: blueviolet;
+}
+.menu span{
+    width: 20px;
+    background-color: bisque;
+}
+
+
+/*************************************/
+.img-slider{
+    position: relative;
+    z-index: 0;
+}
+.descricao-img-slider{
+    position: absolute;
+    width: 400px;
+    height: 200px;
+    border: solid 1px red;
+    z-index: 1;
+    top: 20%;
+    right: 20%;
+    color: white;
+}
+
+.classe-btn-slider{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-shrink: 1;
+    justify-content: space-between;
+
+    height: 45%;
+    position: absolute;
+    right: .1%;
+    top: 30%;  
+    z-index: 1;
+
+    background-color: yellow;
+}
+.classe-btn-slider p{
+    transform: rotate(-90deg);
+    flex-basis: auto;
+    margin: auto;
+}
+.btn-slider{
+    background-color: blue;
+    height: 20%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-slider button{
+    border: solid 1px rgba(0, 0, 0, 0);
+    
+}
+
+/******************/
+.teste{
+    width: 100%;
+    height: 1020px;
+    margin-top: 20px;
+    background-color: cornflowerblue;
+}
+
+/*****Responsivo*******/
+@media (max-width:450px) {
+    
+}
