@@ -30,7 +30,9 @@
     height: 24px;
     cursor: pointer;
 }
-
+.div-menu{
+    position: relative;
+}
 .menu .div-menu span img{
     margin-right: 15px;
     align-items: center;
@@ -57,6 +59,30 @@
 }
 .menu span:nth-last-child(0n+1){
     border: none;
+}
+.menu ul .sub-menu{
+    display: flex;
+    background-color: #084154;
+    color: white;
+    z-index: 1;
+    position: absolute;
+    width: 400px;
+    height: 200px; 
+}
+.menu ul .sub-menu ul{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    border: solid 1px black;
+    height: 100px;
+}
+
+.menu ul .sub-menu{
+    display: none;
+}
+
+.menu ul li:hover>.sub-menu{
+    display:flex;   
 }
 
 /*************************************/
