@@ -1,0 +1,63 @@
+/**botao lateral**/
+.classe-btn-banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+
+    width: 60px;
+    height: 384px;
+    position: absolute;
+    right: .1%;
+    top: 30%;  
+    z-index: 1;
+
+    background-color: #3EC6E0;
+    border-radius: 0 0 0 10px;
+}
+.classe-btn-banner .item-btn{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+}
+.item-btn p{
+    font-size: 14px;
+    color: white;
+    width: 110px;
+    margin: 70px 0px;
+    transform: rotate(90deg);
+}
+.item-btn .linha{
+    margin-top: 80px;
+    width: 77px;
+    border: solid 1px white;
+    transform: rotate(90deg); 
+}
+.classe-btn-banner .btn-banner{
+    background-color: #084154;
+    height: 84px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0 0 0 10px; 
+}
+.btn-banner{
+    display: flex;
+    flex-direction: column
+}
+.btn-banner p{
+    color: white;
+    margin-bottom: 10px;
+}
+.btn-banner button{
+    cursor: pointer;
+    border: solid 1px rgba(0, 0, 0, 0);
+    margin: auto;
+    background-color: #084154;
+}

@@ -1,0 +1,39 @@
+/**banner informativo**/
+.img-banner{
+    position: relative;
+    height: 840px;
+    z-index: 0;
+}
+.banner-info{
+    position: absolute;
+    width: 420px;
+    height: 327px;
+    text-align: right;
+    z-index: 1;
+    top: 20%;
+    right: 20%;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.banner-info-2{
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.banner-info h1{
+    font-size: 46px;
+    font-weight: 900;
+}
+.banner-info h2{
+    font-size: 70px;
+    color: #3EC6E0;
+    font-weight: 900;
+}
+.banner-info h2 sup{
+    font-size: 28px;
+    font-weight: 900;
+    color: #3EC6E0;
+    margin: 0px;
+}
+.banner-info p{
+    font-size: 16px;
+    margin-top: 28px;
+}
