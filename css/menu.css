@@ -8,7 +8,7 @@
     align-content: space-around;
     justify-content: space-around;
     position: absolute;
-    z-index: 2;
+    z-index: 2;  
 }
 .menu ul li {
     list-style: none;  
@@ -38,9 +38,9 @@
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    margin: 0  0 0 1px;
     background-color: #3EC6E0;
     font-size: 14px;
+    position: absolute;
 }
 .menu span{
     border-right: solid 1px white;
