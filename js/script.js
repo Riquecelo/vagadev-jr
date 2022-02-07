@@ -1,26 +1,32 @@
-var owl = $('.owl-carousel');
+var tituloJogo = document.querySelector('#titulo');
+var numero = document.querySelector('#numero');
+var btnAnterior = document.querySelector('#btn-anterior');
+var btnProximo = document.querySelector('#btn-proximo');
 
-owl.owlCarousel({
-  loop:true,
-  margin:10,
-  nav:false,
-  dots:false,
-  responsive:{
-      0:{
-          items:1
-      },
-      600:{
-          items:1
-      },
-      1000:{
-          items:1
-      }
-  }
-});
+var alternador = true;
 
-$("#bnt-anterior").on('click', function(){
-    owl.trigger('prev.owl.carousel');
-});
-$("#btn-proximo").on('click', function(){
-    owl.trigger('next.owl.carousel');
+btnAnterior.addEventListener('click', function(e){
+    e.preventDefault();
+    if(alternador){
+        numero.textContent='2/2';
+        tituloJogo.textContent='RED DEAD II';
+        alternador=false;
+    }else{
+        numero.textContent='1/2';
+        tituloJogo.textContent='Mortal Kombat'
+        alternador=true;
+    }  
+})
+
+btnProximo.addEventListener('click', function(e){
+    e.preventDefault();
+    if(alternador){
+        numero.textContent='2/2';
+        tituloJogo.textContent='RED DEAD II';
+        alternador=false;
+    }else{
+        numero.textContent='1/2';
+        tituloJogo.textContent='MORTAL KOMBAT'
+        alternador=true;
+    }  
 })
