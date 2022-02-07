@@ -6,6 +6,70 @@
     font-family: 'Roboto', sans-serif;
 }
 
+/*********** Modal **************/
+.desativado{
+    display: none;
+}
+.ativado{
+    display: flex;
+}
+.scroll-desativado{
+    overflow: hidden;
+}
+
+.modal{
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    height: 2095px;
+    z-index: 5;
+    background-color: rgba(8, 65, 84, 0.452);
+    top: 0;
+}
+.card-modal{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 500px;
+    background-color: #FFFFFF;  
+    justify-content:space-between ; 
+    border-radius: 5px;
+}
+
+
+.fechar-modal{
+    width: 35px;
+    height: 35px;
+    float: right;
+    margin: 10px 10px 0 auto;
+    cursor: pointer;
+}
+.item-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.texto-modal{
+    font-size: 30px;
+    font-weight: 300;
+    color: #084154;
+    width: 250px;
+    height: 80px;
+    text-align: center;
+}
+.reta-texto-modal{
+    width: 50px;
+    height: 2px;
+    margin-top: 40px;
+    background-color: #084154;
+}
+.mario-modal{
+    width: 200px;
+    height: 300px;
+    margin-left: 25%;
+}
+
 /********* Rodapé ************/
 footer{
     height: 50px;
