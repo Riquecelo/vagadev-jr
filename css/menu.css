@@ -14,7 +14,8 @@
     list-style: none;  
 }
 .menu ul li .logo{
-    width: 163px;
+    margin: auto;
+    width: 50%;
     height: 35px;
 }
 .menu ul li img{
@@ -93,4 +94,7 @@
 }
 .menu ul li:hover>.sub-menu{
     display:flex;   
+}
+.produto-carousel{
+    display: none;
 }

@@ -1,0 +1,14 @@
+@media (max-width: 768px) {
+    .produtos-em-destaque{
+        display: none;
+    }
+    .produto-carousel{
+        display: block;
+        margin-top: 30px;
+    }
+    .produto-destacado{
+        width: 70%;
+        margin: auto;
+    }
+
+}

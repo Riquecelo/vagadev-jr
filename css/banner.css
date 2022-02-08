@@ -14,10 +14,18 @@
     right: 20%;
     color: white;
     background-color: rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
 }
 .banner-info-2{
     background-color: rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
 }
+.banner-info:hover, .banner-info-2:hover{
+    transform: translateY(-7px);
+}
+
 .banner-info h1{
     font-size: 46px;
     font-weight: 900;

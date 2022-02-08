@@ -1,4 +1,7 @@
 /****Produtos em destaque****/
+.produto-carousel{
+    display: none;
+}
 .produtos{
     width: 100%;
     height: inherit;
@@ -17,33 +20,42 @@
     align-items: center;
     justify-items: center;
     justify-content: space-between;
-    width: 80%;
+    width: 90%;
     height: 700px;
-    margin-left: 10%;  
+    /*margin-left: 10%;/*/
+    margin: auto;
 }
 .produto-destacado{
+    transition: all 0.3s ease 0s;
     background: #FFFFFF;
     box-shadow: 0px 4px 20px 7px rgba(0, 0, 0, 0.07);
     border-radius: 10px;
-    width: 350px;
-    height: 561px;   
+    width: 30%;
+    /*width: 350px;*/
+    height: 560px;   
+}
+.produto-destacado:hover{
+    transform: translateY(-7px);
 }
 .produto-destacado img{
     margin-top: 10px;
     height: 362px;
+    margin: auto;
+    width: 100%;
 }
 .info-produto{
     border-top: #3EC6E0 2px solid;
     height: 185px;
-    width: 350px;
-    height: 185px;
+    width: 100%;
+    /*width: 350px;*/
+    height: 35%;
     background: #F5F5F5;
     border-radius: 0px 0px 10px 10px;
 }
 .info-produto p{
     font-size: 14px;
     color: #084154;
-    width: 250px;
+    width: 75%;
     margin-top:20px; 
     margin-left: 26px;
 }
@@ -54,23 +66,23 @@
     margin-left: 26px;
 }
 .info-produto button{   
-    width: 240px;
+    width: 70%;
+    /*width: 240px;*/
     height: 52px;
     background: #3EC6E0;
     border-radius: 5px;
     color: #F5F5F5;
-    margin-left: 55px;
+    margin-left: 15%;
     border: none;
     margin-top:20px;
     cursor: pointer;
     font-size: 18px;
     font-weight: 900;
     position: relative;
-
+    transition: all 0.4s ease;
 }
 .info-produto button:hover{
-    background: #084154;
-    
+    background: #084154;   
 }
 
 .desativadoimg{

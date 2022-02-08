@@ -8,18 +8,20 @@
     position: absolute;
     display: flex;
     align-content: center;
-    margin-left: 6%;
+    margin-left: 7%;
     z-index: 1;
     top: 700px;
 }
-.banner-secundario .banner-zelda .banner-sekiro{
+.banner-secundario .banner-zelda, .banner-sekiro{
     height: 360px;  
+    transition: all 0.3s ease 0s;
 }
-.banner-zelda .banner-sekiro{
-    width: 600px;
+.banner-secundario .banner-zelda:hover, .banner-sekiro:hover{
+    transform: translateY(-7px);
 }
-.banner-secundario img, .legenda{
-    margin: 0 10px 0 0; 
+
+.banner-secundario img{
+    width: 95%; 
 }
 .banner-secundario .legenda{
     display: flex;
@@ -29,14 +31,16 @@
     background-color: #3EC6E0;
     border-radius: 0 0 10px 10px;
     border-left: solid #084154 19px;
+    width: 95%;
 }
 .banner-secundario .legenda p{
+    width: 55%;
     padding-top: 15px;
     margin-left: 10px;
 }
 .banner-secundario .legenda .reta{
     background-color: #084154;
     height: 2px;
-    width: 200px;
+    width: 35%;
     margin: 25px 0 0 0;
 }
