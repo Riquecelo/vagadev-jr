@@ -65,7 +65,29 @@
     cursor: pointer;
     font-size: 18px;
     font-weight: 900;
+    position: relative;
+
 }
 .info-produto button:hover{
     background: #084154;
+    
+}
+
+.desativadoimg{
+    display: none;
+}
+.ativadoimg{
+    display: block;
+}
+.btn-mario{
+    width: 55px;
+    height: 70px;
+    right: 5px;
+    top: -20px;
+    position: absolute;
+    z-index: 1;
+    background-image: url('../img/image_mario\ 1.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
 }

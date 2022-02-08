@@ -11,8 +11,6 @@ var btnComprar=document.querySelectorAll('.btn-comprar');
 var fecharModal = document.querySelector('.fechar-modal');
 
 
-
-
 /*Logica dos botoes laterais do slide banner */
 var alternador = true;
 
@@ -42,6 +40,7 @@ btnProximo.addEventListener('click', function(e){
     }  
 })
 
+
 /**Lógica dos botões de compra / ativa modal */
 btnComprar.forEach(function(btn){
     btn.addEventListener('click', function(){
@@ -58,6 +57,12 @@ btnComprar.forEach(function(btn){
         /*Alteração do botão apos o click */
         btn.textContent='Comprado!'
         btn.style.backgroundColor = '#084154'
+
+      /*  let imgMario = document.querySelector('.btn-mario')
+        imgMario.classList.remove('desativadoimg')
+        imgMario.classList.add('ativadoimg')
+        console.log(btn)*/
+        apareceMario();
     })
 })
 
@@ -67,3 +72,9 @@ fecharModal.addEventListener('click', function(){
         modal.classList.remove('ativado')
         modal.classList.add('desativado')      
 })
+
+function apareceMario (){
+    let imgMario = document.querySelector('.btn-mario')
+        imgMario.classList.remove('desativadoimg')
+        imgMario.classList.add('ativadoimg')
+}

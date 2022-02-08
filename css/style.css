@@ -13,10 +13,6 @@
 .ativado{
     display: flex;
 }
-.scroll-desativado{
-    overflow: hidden;
-}
-
 .modal{
     align-items: center;
     justify-content: center;
