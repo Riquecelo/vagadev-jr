@@ -1,18 +1,17 @@
 var owl2 = $("#carousel2");
 
 owl2.owlCarousel({
+    items:1,
     loop: true,
     margin: 10,
     nav: true,
-    mouseDrag:true,
-    autoPlay:true,
     center:true,
     responsive: {
         0: {
         items: 1
         },
         600: {
-        items: 2
+        items: 1
         },
         1000: {
         items: 2
@@ -30,6 +29,7 @@ owl.owlCarousel({
   nav:false,
   dots:false,
   mouseDrag:false,
+  responsiveClass:true,
   responsive:{
       0:{
           items:1

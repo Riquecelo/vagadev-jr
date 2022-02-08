@@ -1,6 +1,6 @@
 /*** Menu ****/
 .menu{
-    width: 100%;
+    width: 90%;
     padding-top: 44px;
     display: flex;
     flex-direction: row;
@@ -10,13 +10,15 @@
     position: absolute;
     z-index: 2;  
 }
+/**** lado esquerdo *****/
 .menu ul li {
-    list-style: none;  
+    list-style: none; 
 }
 .menu ul li .logo{
     margin: auto;
-    width: 50%;
+    width: 40%;
     height: 35px;
+    cursor: none;
 }
 .menu ul li img{
     margin:  0 40px 10px 0;
@@ -24,8 +26,11 @@
     height: 24px;
     cursor: pointer;
 }
+
+/** lado direito**/
 .div-menu{
     position: relative;
+   /* width: 50%;*/
 }
 .menu .div-menu span img{
     margin-right: 10px;
@@ -54,6 +59,8 @@
 .menu span:nth-last-child(0n+1){
     border: none;
 }
+
+/******* Sub menu **********/
 .menu ul .sub-menu{
     display: flex;
     align-items: center;
@@ -85,16 +92,13 @@
     font-weight: 400;
     padding: 7px 0 7px 0;
 }
-.menu ul .sub-menu ul li:hover{
+.menu ul .sub-menu ul li:hover {
     background-color: #3EC6E0;
     border-radius: 5px;   
 }
 .menu ul .sub-menu{
     display: none;
 }
-.menu ul li:hover>.sub-menu{
+.menu ul li:first-child:hover>.sub-menu{
     display:flex;   
-}
-.produto-carousel{
-    display: none;
 }

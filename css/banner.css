@@ -1,9 +1,11 @@
-/**banner informativo**/
+/*owl imagem bannner principal*/
 .img-banner{
+    width: 100%;
     position: relative;
     height: 840px;
     z-index: 0;
 }
+/**banner informativo**/
 .banner-info{
     position: absolute;
     width: 420px;
@@ -18,9 +20,10 @@
     transition: all 0.3s ease 0s;
 }
 .banner-info-2{
+    padding-right: 10px;
     background-color: rgba(0, 0, 0, 0.6);
     cursor: pointer;
-    transition: all 0.3s ease 0s;
+    /*transition: all 0.3s ease 0s;/*/
 }
 .banner-info:hover, .banner-info-2:hover{
     transform: translateY(-7px);

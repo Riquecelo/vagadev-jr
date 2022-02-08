@@ -27,7 +27,7 @@
     display: flex;
     justify-content: space-around;
     height: 57px;
-    width: inherit;
+    /*width: inherit;*/
     background-color: #3EC6E0;
     border-radius: 0 0 10px 10px;
     border-left: solid #084154 19px;
